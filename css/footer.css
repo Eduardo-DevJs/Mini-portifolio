@@ -1,0 +1,26 @@
+
+.footer{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer h2 {
+  color: #873eff;
+  font-size: 1rem;
+}
+
+.footer-menu {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 768px){
+  .footer{
+    flex-direction: column;
+    gap: 20px;
+  }
+}

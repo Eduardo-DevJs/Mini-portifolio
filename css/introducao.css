@@ -1,0 +1,40 @@
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.informacoes {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.titulo-introducao {
+  color: #04d361;
+}
+
+.titulo-principal {
+  line-height: 1.4;
+  color: #fff;
+}
+
+.descricao {
+  font-size: 1.2rem;
+  color: #aeaeae;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px){
+  .introducao{
+    grid-template-columns: 1fr;
+  }
+
+  .titulo-principal{
+    font-size: 1.5rem;
+  }
+
+  .descricao{
+    font-size: 1rem;
+  }
+}
